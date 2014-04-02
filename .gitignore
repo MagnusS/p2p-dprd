@@ -1,0 +1,7 @@
+bin/p2pdprd
+src/p2p-dprd
+*.swp
+*~
+*.pyc
+*.o
+tags
