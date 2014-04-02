@@ -82,7 +82,7 @@ NodeCollection:versionID = 1     type = 2        nodeCount = 2   maxNodeCount = 
 ```
 
 ### Are there any public seed nodes? ###
-Yes! We are running a test-server at 178.79.184.208. 
+Yes! We are running a test-server at 178.79.184.208 port 2001. 
  
 
 
