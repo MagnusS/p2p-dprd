@@ -9,7 +9,9 @@ P2P-DPRD is a stand-alone proof-of-concept C implementation of the discovery pro
 It is the result of the bachelor's thesis project of Halvdan Grelland and Jostein Aardal which was 
 supervised by Magnus Skjegstad at Forsvarets Forskningsinstitutt (FFI). The code has since then been improved and documented by Halvdan Grelland and Magnus Skjegstad to add support for OpenWRT and a Python interface.
 
-The code is currently proof-of-concept and experimental. 
+To help perform resource/frequency allocation and control P2P-DPRD we have developed a Python framework that runs on top of P2P-DPRD and is available for download [here](https://github.com/MagnusS/pyradac). 
+
+The code is proof-of-concept and experimental. 
 
 ### What is the license of P2P-DPRD? ###
 P2P-DPRD is (c) Magnus Skjegstad and Forsvarets Forsvarsinstitutt (FFI) and is licensed under a two-clause BSD-license. See the separate LICENSE-file for details.
@@ -81,8 +83,10 @@ NodeCollection:versionID = 1     type = 2        nodeCount = 2   maxNodeCount = 
 1        - 1978674892    100.100000      100.100000      10      2130706433      2001    2130706433      45452   1396471833
 ```
 
+You can now use P2P-DPRD directly through the unix socket or use pyradac. Pyradac is resource/frequency allocator framework for P2P-DPRD with a Python API and is available for download [here](https://github.com/MagnusS/pyradac).
+
 ### Are there any public seed nodes? ###
-Yes! We are running a test-server at 178.79.184.208 port 2001. 
+No, not at the moment. Please contact us if you are interested in hosting one.
  
 
 
